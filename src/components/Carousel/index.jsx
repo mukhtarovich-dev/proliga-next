@@ -132,8 +132,8 @@ const Carousel = () => {
                 <div className={'mt-10 sm:ml-80'}>
                   <h1 className={''}>RAQOBATLASHING</h1>
                   <h3 className={'mt-10'}>
-                    Boshqa foydalanuvchilar bilan umumiy ligada qatnashing, Ulardan ko'proq ochko ishlashga harakat
-                    qiling va mavsum so'ngida g'olib bo'ling!
+                    Boshqa foydalanuvchilar bilan umumiy ligada qatnashing, Ulardan{"ko'proq"} ochko ishlashga harakat
+                    qiling va mavsum{"so'ngida g'olib bo'ling"}!
                   </h3>
                 </div>
               </div>
