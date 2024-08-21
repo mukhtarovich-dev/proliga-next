@@ -63,7 +63,7 @@ const Carousel = () => {
           </div>
           <div className="w-full flex-shrink-0">
             <section className="flex h-full bg-[#222222] md:px-[6rem] px-[1rem] py-[3rem] ">
-              <div className={'mt-24 h-full'}>
+              <div className={'mt-36 h-full '}>
                 <h2 className={'text-2xl'}>BALLARNI YIG’ING</h2>
                 <p className="xl:max-w-[651px] sm:max-w-full mt-3">
                   Har bir o&apos;yinchi haqiqiy o&apos;yinlarda qilgan harakatlari uchun
@@ -72,9 +72,7 @@ const Carousel = () => {
                   oladi
                 </p>
               </div>
-              <div className={'ml-96 mt-28'}>
-                <Image width={1000} height={1000} src="/images/promotion-2.png" alt="" />
-              </div>
+              <img className={'mt-36 w-96 h-80'} src="/images/promotion-2.png" alt="" />
             </section>
           </div>
           <div className="w-full flex-shrink-0">
@@ -136,6 +134,13 @@ const Carousel = () => {
                     qiling va mavsum{'so\'ngida g\'olib bo\'ling'}!
                   </h3>
                 </div>
+              </div>
+            </section>
+          </div>
+          <div className="w-full flex-shrink-0">
+            <section className="flex h-full bg-[#222222] md:px-[6rem] px-[1rem] py-[3rem]  ">
+              <div className="mt-40 sm:flex ">
+
               </div>
             </section>
           </div>
