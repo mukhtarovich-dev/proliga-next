@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Promotions />
+      {/*<Promotions />*/}
       <Carousel />
       <Rules />
     </>

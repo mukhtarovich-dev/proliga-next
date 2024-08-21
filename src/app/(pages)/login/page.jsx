@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import { toast } from 'react-toastify'
 import { supabase } from '../../lib/supabaseClient'
