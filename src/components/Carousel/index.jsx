@@ -11,7 +11,7 @@ const Carousel = () => {
   }
 
   const prevSlide = () => {
-    setCurrentIndex((currentIndex - 1 + slides.length) % slides)
+    setCurrentIndex((currentIndex - 1 + slides) % slides)
   }
   return (
     <div className="relative w-full  mx-auto ">
@@ -34,19 +34,19 @@ const Carousel = () => {
 
                   <div className="relative sm:w-[430px] sm:h-[430px] w-[230px] h-[230px]">
                     <img
-                      alt={"img"}
+                      alt={'img'}
                       className="absolute left-1/2 top-0 sm:w-auto sm:h-auto w-[100px] h-[100px]  transform -translate-x-1/2"
-                      src="/images/promotion-3.png"  />
+                      src="/images/promotion-3.png" />
                     <img
-                      alt={"img"}
+                      alt={'img'}
                       className="absolute left-1/2 bottom-0 sm:w-auto sm:h-auto w-[100px] h-[100px] transform -translate-x-1/2"
                       src="/images/promotion-4.png" />
                     <img
-                      alt={"img"}
+                      alt={'img'}
                       className="absolute top-1/2 left-0 sm:w-auto sm:h-auto w-[100px] h-[100px] transform -translate-y-1/2"
                       src="/images/promotion-5.png" />
                     <img
-                      alt={"img"}
+                      alt={'img'}
                       className="absolute top-1/2 right-0 sm:w-auto sm:h-auto w-[100px] h-[100px] transform -translate-y-1/2"
                       src="/images/promotion-6.png" />
                   </div>
@@ -54,7 +54,7 @@ const Carousel = () => {
 
                 <div className="flex justify-center items-center">
                   <img
-                    alt={"img"}
+                    alt={'img'}
                     className="2xl:max-w-[865px] mx-auto 2xl:max-h-[648px] lg:max-w-[600px] lg:max-h-[448px] max-w-[400px] max-h-[248px] w-auto h-auto"
                     src="/images/promotion-1.png" />
                 </div>
@@ -132,8 +132,8 @@ const Carousel = () => {
                 <div className={'mt-10 sm:ml-80'}>
                   <h1 className={''}>RAQOBATLASHING</h1>
                   <h3 className={'mt-10'}>
-                    Boshqa foydalanuvchilar bilan umumiy ligada qatnashing, Ulardan{"ko'proq"} ochko ishlashga harakat
-                    qiling va mavsum{"so'ngida g'olib bo'ling"}!
+                    Boshqa foydalanuvchilar bilan umumiy ligada qatnashing, Ulardan{'ko\'proq'} ochko ishlashga harakat
+                    qiling va mavsum{'so\'ngida g\'olib bo\'ling'}!
                   </h3>
                 </div>
               </div>
