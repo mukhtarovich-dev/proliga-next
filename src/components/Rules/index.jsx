@@ -7,7 +7,6 @@ export default function Rules() {
         <div className="bg-primary md:w-1/3 w-auto pl-16">
           <h3 className="text-black capitalize text-2xl font-bold">umumiy qoidalar</h3>
         </div>
-        {/* Список */}
         <ul className="list-decimal list-inside pt-[15px]">
           <li>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
