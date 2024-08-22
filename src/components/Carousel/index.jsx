@@ -14,7 +14,7 @@ const Carousel = () => {
     setCurrentIndex((currentIndex - 1 + slides) % slides)
   }
   return (
-    <div className="relative w-full  mx-auto ">
+    <div className="relative w-full  mx-auto">
       <div className="overflow-hidden">
         <div className="flex transition-transform duration-500 ease-in-out"
              style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
@@ -144,7 +144,6 @@ const Carousel = () => {
               </div>
             </section>
           </div>
-
         </div>
       </div>
       <button onClick={prevSlide}
